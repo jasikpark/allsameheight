@@ -15,6 +15,11 @@
     <style>
         .container {
             display: flex;
+            width: 100%;
+        }
+
+        .item {
+            object-fit: scale-down;
         }
     </style>
 </head>
@@ -22,14 +27,22 @@
 <body>
     <h1>allsameheight</h1>
     <div class="container">
-        <img src="photos/eberhard-grossgasteiger-VDw-nsi5TpE-unsplash.jpg" />
-        <img src="photos/max-andrey-QvMnYyk5Rj8-unsplash.jpg" />
-        <img src="photos/runzi-zhu-a0U58gHCVRw-unsplash.jpg" />
-        <img src="photos/sydney-angove-GJJGpecwvMs-unsplash.jpg" />
+        <img class="item" src="photos/eberhard-grossgasteiger-VDw-nsi5TpE-unsplash.jpg" />
+        <img class="item" src="photos/max-andrey-QvMnYyk5Rj8-unsplash.jpg" />
+        <img class="item" src="photos/runzi-zhu-a0U58gHCVRw-unsplash.jpg" />
+        <img class="item" src="photos/sydney-angove-GJJGpecwvMs-unsplash.jpg" />
     </div>
     <div class="container">
         <img style="width:40%" src="photos/allsameheight.svg" />
     </div>
+    <p>An attempt at solving this CSS puzzle</p>
+    <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">cool css puzzle:<br><br>i have a set of images, all the same height but different aspect
+            ratios<br><br>is it possible to have them automatically scale up so that their total width fills the
+            parent&#39;s width, but they remain the same height</p>&mdash; 💍💒 eevee 💒💍 (@eevee) <a
+            href="https://twitter.com/eevee/status/1187553039013445633?ref_src=twsrc%5Etfw">October 25, 2019</a>
+    </blockquote>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 
 </html>
